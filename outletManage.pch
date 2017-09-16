@@ -1,0 +1,36 @@
+//
+//  outletManage.pch
+//  outletManage
+//
+//  Created by ksm on 16/3/10.
+//  Copyright © 2016年 ksm. All rights reserved.
+//
+
+#ifndef outletManage_pch
+#define outletManage_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* outletManage_pch */
+
+#import "UIViewExt.h"
+#import "MBProgressHUD.h"
+#import "Uitils.h"
+#import "Defaults.h"
+#import "NSURLs.h"
+#import <MJExtension.h>
+#import "BaseViewController.h"
+#import "ColorFiles.h"
+#import "KSMNetworkRequest.h"
+#import "validateFile.h"
+#import "UserMsgModel.h"
+#import "UserMsgTool.h"
+#import "FxDate.h"
+#import <MJRefresh.h>
+
+#ifdef DEBUG
+#define KSMLog(...) NSLog(__VA_ARGS__)
+#else
+#define KSMLog(...)
+#endif
